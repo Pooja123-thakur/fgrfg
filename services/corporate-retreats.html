@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Retreats | EternalMiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+</head>
+<body>
+  <header>
+        <div class="contact-info-bar">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@eternalmiles.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <a href="../index.html" class="logo">
+                        <img src="../image/eternalogo.png" alt="EternalMiles Logo" class="logo-img"><br>
+                        <span class="tagline">Never Stop Exploring</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#destinations">Destinations</a></li>
+                    <li><a href="../index.html#exp">Experiences</a></li>
+                    <li><a href="../index.html#stories">Stories</a></li>
+                    <li><a href="#" class="btn" onclick="openForm()">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="destination-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="container">
+            <h1>Corporate Retreats</h1>
+            <p>Strategic Getaways That Inspire and Transform</p>
+        </div>
+    </section>
+
+    <section class="corporate-section">
+        <div class="container">
+            <h2>The EternalMiles Corporate Experience</h2>
+            <p>Where business objectives meet exceptional destinations</p>
+            
+            <div class="corporate-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Customized Programs</h3>
+                    <p>Tailored retreat agendas combining strategy sessions, team building, and executive coaching.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Tech-Enabled Venues</h3>
+                    <p>State-of-the-art meeting facilities with hybrid capabilities for remote participants.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Team Building</h3>
+                    <p>Custom-designed activities to strengthen collaboration, communication, and company culture.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3>Work-Life Balance</h3>
+                    <p>Wellness activities and leisure time to recharge between strategic sessions.</p>
+                </div>
+            </div>
+            
+            <h2>Signature Corporate Retreat Packages</h2>
+            <p>Curated experiences for teams of all sizes</p>
+            
+            <div class="corporate-packages">
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Mountain Strategy Summit</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 4 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Colorado, USA</span>
+                        </div>
+                        <p>Luxury mountain lodge with private meeting spaces, outdoor team challenges, and executive chef catering.</p>
+                        <button class="btn book-package-btn" data-destination="Mountain Strategy Summit" onclick="openForm('Mountain Strategy Summit')">Request Proposal</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Executive Innovation Retreat</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Tuscany, Italy</span>
+                        </div>
+                        <p>Vineyard estate with creative thinking workshops, gourmet dining, and cultural immersion.</p>
+                        <button class="btn book-package-btn" data-destination="Executive Innovation Retreat" onclick="openForm('Executive Innovation Retreat')">Request Proposal</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1531058020387-3be344556be6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Island Leadership Forum</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 3 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Hawaii, USA</span>
+                        </div>
+                        <p>Private beachfront resort with leadership development sessions and adventure-based learning.</p>
+                        <button class="btn book-package-btn" data-destination="Island Leadership Forum" onclick="openForm('Island Leadership Forum')">Request Proposal</button>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Corporate Success Stories</h2>
+            <p>How we've helped organizations achieve their goals</p>
+            
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p>"Our annual leadership retreat planned by EternalMiles resulted in the most productive strategic planning session we've ever had. The combination of focused work time and curated team activities created breakthroughs we couldn't achieve in the office."</p>
+                    <p class="testimonial-author">- TechForward Inc. (Fortune 500 Technology Firm)</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"EternalMiles understood our need for both business results and employee rejuvenation. Their corporate wellness retreat helped reduce burnout while aligning our team around new company objectives. The ROI was evident within weeks of returning."</p>
+                    <p class="testimonial-author">- GreenGrowth Consulting (500 employees)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="../destinations/europe.html">Europe</a></li>
+                        <li><a href="../destinations/asia.html">Asia</a></li>
+                        <li><a href="../destinations/africa.html">Africa</a></li>
+                        <li><a href="../destinations/americas.html">Americas</a></li>
+                        <li><a href="../destinations/oceania.html">Oceania</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="../services/luxury-vacations.html">Luxury Vacations</a></li>
+                        <li><a href="../services/honeymoons.html">Honeymoons</a></li>
+                        <li><a href="../services/family-travel.html">Family Travel</a></li>
+                        <li><a href="../services/group-tours.html">Group Tours</a></li>
+                        <li><a href="../services/corporate-retreats.html">Corporate Retreats</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../company/about-us.html">About Us</a></li>
+                        <li><a href="../company/travel-blog.html">Travel Blog</a></li>
+                        <li><a href="../company/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trip Form Popup -->
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="tripForm">
+        <h2>Complete Your Custom Trip Details</h2>
+        <form id="customForm">
+            <div class="form-row">
+                <div><input type="text" id="destination" placeholder="Destination" required /></div>
+                <div><input type="number" id="travelers" placeholder="Number of Travelers" required min="1" /></div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group-inline">
+                    <label for="checkIn">Check-in:</label>
+                    <input type="date" id="checkIn" required />
+                </div>
+                <div class="form-group-inline">
+                    <label for="checkOut">Check-out:</label>
+                    <input type="date" id="checkOut" required />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <select id="hotel" required>
+                        <option value="" disabled selected>Select Accommodation Type</option>
+                        <option>5 Star Luxury</option>
+                        <option>Boutique Hotel</option>
+                        <option>Private Villa</option>
+                        <option>Luxury Resort</option>
+                    </select>
+                </div>
+                <div><input type="text" id="departureCity" placeholder="Departure City" /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="email" id="email" placeholder="Email" required /></div>
+                <div><input type="tel" id="phone" placeholder="Phone Number" required /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="number" id="kids" min="0" placeholder="Number of Kids" /></div>
+                <div>
+                    <select id="kidsAgeRange">
+                        <option value="" disabled selected>Select Kids Age Range</option>
+                        <option>0-2</option>
+                        <option>2-8</option>
+                        <option>8-12</option>
+                        <option>12-18</option>
+                    </select>
+                </div>
+            </div>
+
+       <div class="form-row">
+            <div>
+              <input type="text" id="specialRequest" placeholder="Any Special Request">
+            </div>
+          </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="closeForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

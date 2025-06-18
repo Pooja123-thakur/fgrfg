@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Discovery | EternalMiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="contact-info-bar">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@eternalmiles.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                                  <a href="../index.html" class="logo">
+
+                        <img src="../image/eternalogo.png" alt="EternalMiles Logo" class="logo-img"><br>
+                        <span class="tagline">Never Stop Exploring</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#destinations">Destinations</a></li>
+                    <li><a href="../index.html#exp">Experiences</a></li>
+                    <li><a href="../index.html#stories">Stories</a></li>
+                    <li><a href="#" class="btn" onclick="openForm()">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="destination-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1561817703-1c09f06a6f44');">
+        <div class="container">
+            <h1>Japan Discovery</h1>
+            <p>Explore Tradition, Technology, and Tranquility</p>
+        </div>
+    </section>
+
+<section class="destination-details">
+    <div class="container">
+        <div class="itinerary-section">
+            <h2>Japan: Timeless Traditions & Future Visions</h2>
+            <div class="itinerary-table-container">
+                <table class="itinerary-table">
+                    <thead>
+                        <tr>
+                            <th width="15%">Day</th>
+                            <th width="25%">Destination</th>
+                            <th width="60%">Curated Experiences</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Day 1: Tokyo Arrival -->
+                        <tr>
+                            <td><span class="day-number">Day 1</span></td>
+                            <td>Tokyo</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-plane"></i> VIP arrival at Haneda Airport</div>
+                                <div class="activity"><i class="fas fa-city"></i> Private evening tour of Shibuya Crossing</div>
+                                <div class="activity"><i class="fas fa-utensils"></i> Omakase dinner at <span class="highlight">Sukiyabashi Jiro</span></div>
+                                <div class="accommodation">Overnight: Aman Tokyo</div>
+                            </td>
+                        </tr>
+                        <!-- Day 2: Tokyo Contrasts -->
+                        <tr>
+                            <td><span class="day-number">Day 2</span></td>
+                            <td>Tokyo</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-torii-gate"></i> Dawn at Meiji Shrine</div>
+                                <div class="activity"><i class="fas fa-robot"></i> TeamLab Planets digital art experience</div>
+                                <div class="activity"><i class="fas fa-shopping-cart"></i> Personal shopper in Ginza</div>
+                                <div class="accommodation">Overnight: Aman Tokyo</div>
+                            </td>
+                        </tr>
+                        <!-- Day 3: Hakone -->
+                        <tr>
+                            <td><span class="day-number">Day 3</span></td>
+                            <td>Hakone</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-train"></i> Romancecar to Hakone</div>
+                                <div class="activity"><i class="fas fa-hot-tub"></i> Private onsen at ryokan</div>
+                                <div class="activity"><i class="fas fa-mountain"></i> Mt. Fuji viewing cruise on Lake Ashi</div>
+                                <div class="accommodation">Overnight: Gora Kadan</div>
+                            </td>
+                        </tr>
+                        <!-- Day 4: Kyoto -->
+                        <tr>
+                            <td><span class="day-number">Day 4</span></td>
+                            <td>Kyoto</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-bolt"></i> Shinkansen to Kyoto (2.5hrs)</div>
+                                <div class="activity"><i class="fas fa-tree"></i> Bamboo forest meditation</div>
+                                <div class="activity"><i class="fas fa-mask"></i> Maiko (apprentice geisha) performance</div>
+                                <div class="accommodation">Overnight: Hoshinoya Kyoto</div>
+                            </td>
+                        </tr>
+                        <!-- Day 5: Kyoto -->
+                        <tr>
+                            <td><span class="day-number">Day 5</span></td>
+                            <td>Kyoto</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-pagoda"></i> Golden Pavilion at opening</div>
+                                <div class="activity"><i class="fas fa-leaf"></i> Tea ceremony with master</div>
+                                <div class="activity"><i class="fas fa-kaaba"></i> Fushimi Inari night walk</div>
+                                <div class="accommodation">Overnight: Hoshinoya Kyoto</div>
+                            </td>
+                        </tr>
+                        <!-- Day 6: Osaka -->
+                        <tr>
+                            <td><span class="day-number">Day 6</span></td>
+                            <td>Osaka</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-train"></i> Morning train to Osaka (30min)</div>
+                                <div class="activity"><i class="fas fa-utensils"></i> Kuromon Market food safari</div>
+                                <div class="activity"><i class="fas fa-castle"></i> Osaka Castle illumination</div>
+                                <div class="accommodation">Overnight: Conrad Osaka</div>
+                            </td>
+                        </tr>
+                        <!-- Day 7: Hiroshima -->
+                        <tr>
+                            <td><span class="day-number">Day 7</span></td>
+                            <td>Hiroshima</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-train"></i> Shinkansen to Hiroshima (1.5hrs)</div>
+                                <div class="activity"><i class="fas fa-dove"></i> Peace Park & Museum visit</div>
+                                <div class="activity"><i class="fas fa-torii-gate"></i> Sunset at Miyajima's floating torii</div>
+                                <div class="accommodation">Overnight: Sheraton Grand Hiroshima</div>
+                            </td>
+                        </tr>
+                        <!-- Day 8: Departure -->
+                        <tr>
+                            <td><span class="day-number">Day 8</span></td>
+                            <td>Tokyo</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-plane"></i> Flight to Tokyo</div>
+                                <div class="activity"><i class="fas fa-shopping-bag"></i> Last-minute omiyage shopping</div>
+                                <div class="activity"><i class="fas fa-plane"></i> International departure</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="itinerary-cta">
+                <button class="btn btn-large" onclick="openForm()">Customize Your Japanese Odyssey</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="../destinations/europe.html">Europe</a></li>
+                        <li><a href="../destinations/asia.html">Asia</a></li>
+                        <li><a href="../destinations/africa.html">Africa</a></li>
+                        <li><a href="../destinations/americas.html">Americas</a></li>
+                        <li><a href="../destinations/oceania.html">Oceania</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="../services/luxury-vacations.html">Luxury Vacations</a></li>
+                        <li><a href="../services/honeymoons.html">Honeymoons</a></li>
+                        <li><a href="../services/family-travel.html">Family Travel</a></li>
+                        <li><a href="../services/group-tours.html">Group Tours</a></li>
+                        <li><a href="../services/corporate-retreats.html">Corporate Retreats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../company/about-us.html">About Us</a></li>
+                        <li><a href="../company/travel-blog.html">Travel Blog</a></li>
+                        <li><a href="../company/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="tripForm">
+        <h2>Complete Your Custom Trip Details</h2>
+        <form id="customForm">
+            <div class="form-row">
+                <div><input type="text" id="destination" placeholder="Destination" required value="Japan Discovery" readonly /></div>
+                <div><input type="number" id="travelers" placeholder="Number of Travelers" required min="1" /></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group-inline">
+                    <label for="checkIn">Check-in:</label>
+                    <input type="date" id="checkIn" required />
+                </div>
+                <div class="form-group-inline">
+                    <label for="checkOut">Check-out:</label>
+                    <input type="date" id="checkOut" required />
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <select id="hotel" required>
+                        <option value="" disabled selected>Select Accommodation Type</option>
+                        <option>Traditional Ryokan</option>
+                        <option>Luxury Hotel</option>
+                        <option>Capsule Hotel</option>
+                    </select>
+                </div>
+                <div><input type="text" id="departureCity" placeholder="Departure City" /></div>
+            </div>
+            <div class="form-row">
+                <div><input type="email" id="email" placeholder="Email" required /></div>
+                <div><input type="tel" id="phone" placeholder="Phone Number" required /></div>
+            </div>
+            <div class="form-row">
+                <div><input type="number" id="kids" min="0" placeholder="Number of Kids" /></div>
+                <div>
+                    <select id="kidsAgeRange">
+                        <option value="" disabled selected>Select Kids Age Range</option>
+                        <option>0-2</option>
+                        <option>2-8</option>
+                        <option>8-12</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div><input type="text" id="specialRequest" placeholder="Any Special Request" /></div>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="closeForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

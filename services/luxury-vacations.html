@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Vacations | EternalMiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+  
+</head>
+<body>
+    <header>
+        <div class="contact-info-bar">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@eternalmiles.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <a href="../index.html" class="logo">
+                        <img src="../image/eternalogo.png" alt="EternalMiles Logo" class="logo-img"><br>
+                        <span class="tagline">Never Stop Exploring</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#destinations">Destinations</a></li>
+                    <li><a href="../index.html#exp">Experiences</a></li>
+                    <li><a href="../index.html#stories">Stories</a></li>
+                    <li><a href="#" class="btn" onclick="openForm()">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="destination-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="container">
+            <h1>Luxury Vacations</h1>
+            <p>Experience the World in Ultimate Comfort</p>
+        </div>
+    </section>
+
+    <section class="luxury-section">
+        <div class="container">
+            <h2>The EternalMiles Luxury Experience</h2>
+            <p>Where every detail is crafted to perfection</p>
+            
+            <div class="luxury-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>5-Star Accommodations</h3>
+                    <p>Stay at the world's most exclusive hotels, private villas, and boutique resorts hand-selected by our luxury travel experts.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Personalized Service</h3>
+                    <p>Your dedicated travel concierge is available 24/7 to ensure every moment of your journey exceeds expectations.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Private Transfers</h3>
+                    <p>Arrive in style with private chauffeurs, helicopter transfers, or luxury yacht arrivals at select destinations.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Gourmet Dining</h3>
+                    <p>Exclusive reservations at Michelin-starred restaurants and private chef experiences tailored to your preferences.</p>
+                </div>
+            </div>
+            
+            <h2>Signature Luxury Packages</h2>
+            <p>Our most exclusive travel experiences</p>
+            
+            <div class="luxury-packages">
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Maldives Overwater Paradise</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 7 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Maldives</span>
+                        </div>
+                        <p>Private overwater villa with infinity pool, personal butler, and unlimited spa treatments at this award-winning resort.</p>
+<button class="btn book-package-btn" data-destination="Maldives" onclick="openForm('Maldives')">Book This Package</button>                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>African Safari Expedition</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 10 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Kenya & Tanzania</span>
+                        </div>
+                        <p>Private guided safari with luxury tented camps, hot air balloon rides, and exclusive wildlife encounters.</p>
+<button class="btn book-package-btn" data-destination="Kenya & Tanzania" onclick="openForm('Kenya & Tanzania')">Book This Package</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>European Grand Tour</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 14 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> France, Italy, Switzerland</span>
+                        </div>
+                        <p>Private jet tour featuring stays at historic chateaux, private vineyard tours, and Michelin dining experiences.</p>
+<button class="btn book-package-btn" data-destination="France, Italy, Switzerland" onclick="openForm('France, Italy, Switzerland')">Book This Package</button>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Luxury Traveler Stories</h2>
+            <p>Experiences that redefine luxury travel</p>
+            
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p>"Our EternalMiles luxury vacation to Bali exceeded every expectation. From the private villa with its own staff to the exclusive temple ceremony arranged just for us, every detail was perfection."</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"The private yacht charter arranged through EternalMiles around the Greek Islands was worth every penny. Having our own chef and guide made it the most stress-free and luxurious vacation we've ever taken."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- <section class="cta-section">
+            <div class="cta-content">
+                <h2>Ready to Experience Luxury Travel Redefined?</h2>
+                <p>Contact our luxury travel specialists to begin crafting your bespoke journey</p>
+                <a href="#" class="btn" onclick="openForm()">Request Consultation</a>
+
+            </div>
+        </section> -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="../destinations/europe.html">Europe</a></li>
+                        <li><a href="../destinations/asia.html">Asia</a></li>
+                        <li><a href="../destinations/africa.html">Africa</a></li>
+                        <li><a href="../destinations/americas.html">Americas</a></li>
+                        <li><a href="../destinations/oceania.html">Oceania</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="../services/luxury-vacations.html">Luxury Vacations</a></li>
+                        <li><a href="../services/honeymoons.html">Honeymoons</a></li>
+                        <li><a href="../services/family-travel.html">Family Travel</a></li>
+                        <li><a href="../services/group-tours.html">Group Tours</a></li>
+                        <li><a href="../services/corporate-retreats.html">Corporate Retreats</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../company/about-us.html">About Us</a></li>
+                        <li><a href="../company/travel-blog.html">Travel Blog</a></li>
+                        <li><a href="../company/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trip Form Popup -->
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="tripForm">
+        <h2>Complete Your Custom Trip Details</h2>
+        <form id="customForm">
+            <div class="form-row">
+                <div><input type="text" id="destination" placeholder="Destination" required /></div>
+                <div><input type="number" id="travelers" placeholder="Number of Travelers" required min="1" /></div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group-inline">
+                    <label for="checkIn">Check-in:</label>
+                    <input type="date" id="checkIn" required />
+                </div>
+                <div class="form-group-inline">
+                    <label for="checkOut">Check-out:</label>
+                    <input type="date" id="checkOut" required />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <select id="hotel" required>
+                        <option value="" disabled selected>Select Accommodation Type</option>
+                        <option>5 Star Luxury</option>
+                        <option>Boutique Hotel</option>
+                        <option>Private Villa</option>
+                        <option>Luxury Resort</option>
+                    </select>
+                </div>
+                <div><input type="text" id="departureCity" placeholder="Departure City" /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="email" id="email" placeholder="Email" required /></div>
+                <div><input type="tel" id="phone" placeholder="Phone Number" required /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="number" id="kids" min="0" placeholder="Number of Kids" /></div>
+                <div>
+                    <select id="kidsAgeRange">
+                        <option value="" disabled selected>Select Kids Age Range</option>
+                        <option>0-2</option>
+                        <option>2-8</option>
+                        <option>8-12</option>
+                        <option>12-18</option>
+                    </select>
+                </div>
+            </div>
+
+         <div class="form-row">
+            <div>
+              <input type="text" id="specialRequest" placeholder="Any Special Request">
+            </div>
+          </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="closeForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

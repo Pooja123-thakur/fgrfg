@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EternalMiles - Your Journey Begins Here</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+    <header id="mainHeader">
+        <div class="contact-info-bar">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@eternalmiles.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <a href="#" class="logo">
+                        <img src="./image/eternalogo.png" alt="EternalMiles Logo" class="logo-img"><br>
+                        <span class="tagline">Never Stop Exploring</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#exp">Experiences</a></li>
+                    <li><a href="#stories">Stories</a></li>
+                    <li><a href="#" class="btn" onclick="openForm()">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore the world with EternalMiles - where every journey tells a story</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations-names">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <p>Explore our most sought-after travel destinations</p>
+
+            <div class="destination-container">
+                <button class="arrow-btn left-arrow" aria-label="Previous destinations">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="destination-grid">
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/1145450965/photo/santorini-island-greece.jpg?s=612x612&w=0&k=20&c=AY_kxRrkTjbDLhqpotxgW8CZp4ovEIM1tRdTrvXKcAM="
+                            alt="Santorini" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Santorini Escape</h3>
+
+                            <a href="./destinations/paris.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Bali -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/675172642/photo/pura-ulun-danu-bratan-temple-in-bali.jpg?s=612x612&w=0&k=20&c=_MPdmDviIyhldqhf7t6s63C-bZbTGfNHMlJP9SIa8Y0="
+                            alt="Bali" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Bali Retreat</h3>
+
+                            <a href="./destinations/bali.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Safari -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/532389864/photo/african-sunset-with-silhouette.jpg?s=612x612&w=0&k=20&c=nmFIJps6CklhZiydCU8lhGZFkMUOHvQ15KmBjViT49w="
+                            alt="Safari" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">African Safari</h3>
+
+                            <a href="./destinations/southafrica.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Singapore -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/483672437/photo/merlion.jpg?s=612x612&w=0&k=20&c=P_buDj2h6ydR-sVFO5nkGyTFehRVECKGvWXrdi50lVg="
+                            alt="Singapore" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Singpaore</h3>
+
+                            <a href="./destinations/singapore.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+                    <!-- Maldives -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Maldives" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Maldives</h3>
+
+                            <a href="./destinations/maldives.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Japan -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Japan" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Japan</h3>
+
+                            <a href="./destinations/japan.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Leh Ladakh -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1695876670020-e2c2ac5a21ce?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Leh Ladakh" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Leh Ladakh</h3>
+
+                            <a href="./destinations/leh.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Spiti Valley -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1579531403068-8d6fd2b3f45d?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Spiti Valley" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Spiti Valley</h3>
+
+                            <a href="./destinations/spiti.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Nepal -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Nepal" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Nepal</h3>
+
+                            <a href="./destinations/nepal.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Sri Lanka -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1586008481877-7dd7c8236d00?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Sri Lanka" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Sri Lanka</h3>
+
+                            <a href="./destinations/srilanka.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Dehradun -->
+                    <div class="destination-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1697730398251-40cd8dc57e0b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Dehradun" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Dehradun</h3>
+
+                            <a href="./destinations/dehradun.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Mauritius -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/1020522918/photo/flic-en-flac-beach-with-piton-de-la-petite-riviere-noire-mauritius.jpg?s=612x612&w=0&k=20&c=tz74ZdQGEH19qFT5LIMKorHJKD1HoFIheli0eGiJOl4="
+                            alt="Mauritius" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Mauritius Paradise</h3>
+
+                            <a href="./destinations/mauritius.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Dubai -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Dubai" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Dubai Experience</h3>
+
+                            <a href="./destinations/dubai.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Himachal -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/1388289439/photo/beas-river-with-snow-cladded-mountain-blue-clouds-and-greenery-in-the-background.jpg?s=612x612&w=0&k=20&c=Hwyknde5MqSX8GwHSXAOVdhM1QKJC7iKQ7SsuJB01XQ="
+                            alt="Himachal" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Himachal</h3>
+
+                            <a href="./destinations/himachal.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Kenya & Tanzania -->
+                    <div class="destination-card">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.Hmf71T27PnR4BcxKkC5FdQHaE8&w=316&h=316&c=7"
+                            alt="Kenya and Tanzania" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Kenya & Tanzania Safari</h3>
+
+                            <a href="./destinations/kenya.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Australia -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Australia" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Australian Wonders</h3>
+
+                            <a href="./destinations/australia.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- New Zealand -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="New Zealand" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">New Zealand</h3>
+
+                            <a href="./destinations/newzealand.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Malaysia -->
+                    <div class="destination-card">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.MwbxlVNB7UGmI6G09Xy5BQHaE8&w=200&h=133&c=7"
+                            alt="Malaysia" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Malaysia</h3>
+
+                            <a href="./destinations/malaysia.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Vietnam & Cambodia -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1528181304800-259b08848526?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Vietnam and Cambodia" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Vietnam & Cambodia</h3>
+
+                            <a href="./destinations/vietnam.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Thailand -->
+                    <div class="destination-card">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.mnm5SZHUacIBbFE2q73biwHaE8&w=316&h=316&c=7"
+                            alt="Thailand" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Thai Paradise</h3>
+
+                            <a href="./destinations/thailand.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+                    <!-- Georgia -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/1160446488/photo/tbilisi-downtown-georgia-taken-in-april-2019.jpg?s=612x612&w=0&k=20&c=yybfqVCUZsy8qNWMnpmX1AjAmbuXtj5Kg5aekaeHj7M="
+                            alt="Georgia" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Georgia</h3>
+
+                            <a href="./destinations/georgia.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Azerbaijan -->
+                    <!-- <div class="destination-card">
+    <img src="https://media.istockphoto.com/id/513055522/photo/view-of-baku-by-the-caspian-sea.jpg?s=612x612&w=0&k=20&c=ctfO_ShOyZ-_6xMfIflHsObGcVIuE-YZMxGHFZOm3Mc=" alt="Azerbaijan" class="destination-img">
+    <div class="destination-overlay">
+        <h3 class="destination-title">Azerbaijan</h3>
+        <p class="destination-excerpt">Discover the fire mountains of Baku and the blend of modern and medieval architecture.</p>
+        <button class="btn" onclick="openForm()">Explore</button>
+    </div>
+</div> -->
+
+                    <!-- Kerala -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/1347088244/photo/kerala-most-beautiful-place-of-india.jpg?s=612x612&w=0&k=20&c=oBVJ6rUfq1YOua_4Oqhj0B1TFwcMFhniaysLJEN_eh8="
+                            alt="Kerala" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Kerala</h3>
+
+                            <button class="btn" onclick="openForm()">Explore</button>
+                        </div>
+                    </div>
+
+                    <!-- North East -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/1044402406/photo/aerial-photo-of-ropeway-cable-car-gondola-ride-over-gangtok-city-during-sunset-in-sikkim-india.jpg?s=612x612&w=0&k=20&c=zZb-JHFCyY1vvaN3jCItlf70tfJoDcGLH_e1KD7BdmE="
+                            alt="North East India" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">North East Discovery</h3>
+
+                            <a href="./destinations/northeast.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Goa -->
+                    <div class="destination-card">
+                        <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Goa" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Goa</h3>
+
+                            <a href="./destinations/goa.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Rajasthan -->
+                    <div class="destination-card">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.lkOGS5wQkhPJzvFPdZ3ArgHaE8&w=316&h=316&c=7"
+                            alt="Rajasthan" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Rajasthan Royalty</h3>
+
+                            <a href="./destinations/rajasthan.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Srinagar -->
+                    <div class="destination-card">
+                        <img src="https://media.istockphoto.com/id/506116780/photo/morning-at-the-paradise-srinagar.jpg?s=612x612&w=0&k=20&c=05KYaEuMYHasAn1_vPxsXqO0i42XsEkGgR-oMoP7kVY="
+                            alt="Srinagar" class="destination-img">
+                        <div class="destination-overlay">
+                            <h3 class="destination-title">Srinagar Serenity</h3>
+
+                            <a href="./destinations/srinagar.html" class="btn">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="arrow-btn right-arrow" aria-label="Next destinations">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Section -->
+    <section id="exp" class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose EternalMiles</h2>
+            <p class="section-subtitle">We make your travel dreams come true</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Expertise</h3>
+                    <p>With over 15 years in the industry, we have the knowledge and connections to create your perfect
+                        trip.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Personalized Service</h3>
+                    <p>Every itinerary is custom-designed to match your preferences, budget, and travel style.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Peace of Mind</h3>
+                    <p>24/7 support and comprehensive travel protection for worry-free journeys.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Exclusive Access</h3>
+                    <p>Special perks and upgrades at top hotels and resorts worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Traveler Stories Section -->
+    <section id="stories" class="traveler-stories">
+        <div class="container">
+            <h2>Traveler Stories & Feedback</h2>
+            <p class="section-subtitle">Hear what our clients say about their experiences</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Our trip to Bali was absolutely perfect! EternalMiles handled every detail and created an
+                            itinerary that matched our interests perfectly."</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <span>Bali Honeymoon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The African safari organized by EternalMiles exceeded all our expectations. Their local
+                            guides were incredibly knowledgeable."</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael Chen">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <span>Kenya Safari</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"As a family of five with different interests, EternalMiles created a European tour that kept
+                            everyone happy and engaged."</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="The Rodriguez Family">
+                        <div>
+                            <h4>The Rodriguez Family</h4>
+                            <span>Europe Tour</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="destinations/europe.html">Europe</a></li>
+                        <li><a href="destinations/asia.html">Asia</a></li>
+                        <li><a href="destinations/africa.html">Africa</a></li>
+                        <li><a href="destinations/americas.html">Americas</a></li>
+                        <li><a href="destinations/oceania.html">Oceania</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services/luxury-vacations.html">Luxury Vacations</a></li>
+                        <li><a href="services/honeymoons.html">Honeymoons</a></li>
+                        <li><a href="services/family-travel.html">Family Travel</a></li>
+                        <li><a href="services/group-tours.html">Group Tours</a></li>
+                        <li><a href="services/corporate-retreats.html">Corporate Retreats</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="company/about-us.html">About Us</a></li>
+                        <li><a href="company/travel-blog.html">Travel Blog</a></li>
+                        <li><a href="company/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms
+                        of Service</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- modal.html -->
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="tripForm">
+        <h2>Complete Your Custom Trip Details</h2>
+        <form id="customForm">
+            <div class="form-row">
+                <div><input type="text" id="destination" placeholder="Destination" required readonly /></div>
+                <div><input type="number" id="travelers" placeholder="Number of Travelers" required min="1" /></div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group-inline">
+                    <label for="checkIn">Check-in:</label>
+                    <input type="date" id="checkIn" required />
+                </div>
+                <div class="form-group-inline">
+                    <label for="checkOut">Check-out:</label>
+                    <input type="date" id="checkOut" required />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <select id="hotel" required>
+                        <option value="" disabled selected>Select Hotel Category</option>
+                        <option>3 Star</option>
+                        <option>4 Star</option>
+                        <option>5 Star</option>
+                    </select>
+                </div>
+                <div><input type="text" id="departureCity" placeholder="Departure City" /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="email" id="email" placeholder="Email" required /></div>
+                <div><input type="tel" id="phone" placeholder="Phone Number" required /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="number" id="kids" min="0" placeholder="Number of Kids" /></div>
+                <div>
+                    <select id="kidsAgeRange">
+                        <option value="" disabled selected>Select Kids Age Range</option>
+                        <option>0-2</option>
+                        <option>2-8</option>
+                        <option>8-12</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="text" id="specialRequest" placeholder="Any Special Request" /></div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn btn-secondary" id="modalCancelBtn">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

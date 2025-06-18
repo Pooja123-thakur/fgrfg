@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honeymoon Packages | EternalMiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="contact-info-bar">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@eternalmiles.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <a href="../index.html" class="logo">
+                        <img src="../image/eternalogo.png" alt="EternalMiles Logo" class="logo-img"><br>
+                        <span class="tagline">Never Stop Exploring</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#destinations">Destinations</a></li>
+                    <li><a href="../index.html#exp">Experiences</a></li>
+                    <li><a href="../index.html#stories">Stories</a></li>
+                    <li><a href="#" class="btn" onclick="openForm()">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="destination-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="container">
+            <h1>Honeymoon Packages</h1>
+            <p>Romantic Getaways to Begin Your Journey Together</p>
+        </div>
+    </section>
+
+    <section class="honeymoon-section">
+        <div class="container">
+            <h2>The EternalMiles Honeymoon Experience</h2>
+            <p>Where love stories begin with unforgettable moments</p>
+            
+            <div class="honeymoon-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Romantic Stays</h3>
+                    <p>Private suites with breathtaking views, rose petal turndown service, and champagne on arrival at our hand-picked romantic resorts.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3>Private Beach Dinners</h3>
+                    <p>Exclusive candlelit dinners on secluded beaches with personalized menus to celebrate your love.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Couples Spa Experiences</h3>
+                    <p>Side-by-side massages and private spa suites designed for ultimate relaxation together.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Wedding Add-Ons</h3>
+                    <p>Optional wedding packages with photography, floral arrangements, and officiant services at dream destinations.</p>
+                </div>
+            </div>
+            
+            <h2>Signature Honeymoon Packages</h2>
+            <p>Romantic escapes you'll cherish forever</p>
+            
+            <div class="honeymoon-packages">
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Bora Bora Paradise</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 10 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> French Polynesia</span>
+                        </div>
+                        <p>Overwater bungalow with glass floor, private plunge pool, and sunset champagne cruise in the South Pacific.</p>
+                        <button class="btn book-package-btn" data-destination="Bora Bora" onclick="openForm('Bora Bora')">Book This Package</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Santorini Dream</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 7 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Greece</span>
+                        </div>
+                        <p>Cave suite with caldera views, private wine tasting, and sailing at sunset in the Aegean Sea.</p>
+                        <button class="btn book-package-btn" data-destination="Santorini" onclick="openForm('Santorini')">Book This Package</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1561501878-aabd62634533?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Bali Romantic Escape</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 12 Nights</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Indonesia</span>
+                        </div>
+                        <p>Private villa with infinity pool, couples spa journey, and traditional Balinese blessing ceremony.</p>
+                        <button class="btn book-package-btn" data-destination="Bali" onclick="openForm('Bali')">Book This Package</button>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Honeymoon Stories</h2>
+            <p>Love stories that began with our packages</p>
+            
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p>"Our honeymoon in the Maldives arranged by EternalMiles was absolute perfection. The private sandbank picnic was the most romantic experience of our lives. We'll cherish these memories forever."</p>
+                    <p class="testimonial-author">- Sarah & Michael</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"The EternalMiles team surprised us with a room upgrade and anniversary cake even though we were traveling a year after our wedding. Their attention to detail made our belated honeymoon extra special."</p>
+                    <p class="testimonial-author">- Jessica & David</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="../destinations/europe.html">Europe</a></li>
+                        <li><a href="../destinations/asia.html">Asia</a></li>
+                        <li><a href="../destinations/africa.html">Africa</a></li>
+                        <li><a href="../destinations/americas.html">Americas</a></li>
+                        <li><a href="../destinations/oceania.html">Oceania</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="../services/luxury-vacations.html">Luxury Vacations</a></li>
+                        <li><a href="../services/honeymoons.html">Honeymoons</a></li>
+                        <li><a href="../services/family-travel.html">Family Travel</a></li>
+                        <li><a href="../services/group-tours.html">Group Tours</a></li>
+                        <li><a href="../services/corporate-retreats.html">Corporate Retreats</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../company/about-us.html">About Us</a></li>
+                        <li><a href="../company/travel-blog.html">Travel Blog</a></li>
+                        <li><a href="../company/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trip Form Popup -->
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="tripForm">
+        <h2>Complete Your Honeymoon Details</h2>
+        <form id="customForm">
+            <div class="form-row">
+                <div><input type="text" id="destination" placeholder="Destination" required /></div>
+                <div><input type="number" id="travelers" placeholder="Number of Travelers" required min="1" value="2" /></div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group-inline">
+                    <label for="checkIn">Check-in:</label>
+                    <input type="date" id="checkIn" required />
+                </div>
+                <div class="form-group-inline">
+                    <label for="checkOut">Check-out:</label>
+                    <input type="date" id="checkOut" required />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <select id="hotel" required>
+                        <option value="" disabled selected>Select Accommodation Type</option>
+                        <option>Luxury Honeymoon Suite</option>
+                        <option>Private Villa</option>
+                        <option>Overwater Bungalow</option>
+                        <option>Boutique Hotel</option>
+                    </select>
+                </div>
+                <div><input type="text" id="departureCity" placeholder="Departure City" /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="email" id="email" placeholder="Email" required /></div>
+                <div><input type="tel" id="phone" placeholder="Phone Number" required /></div>
+            </div>
+
+             <div class="form-row">
+            <div>
+              <input type="text" id="specialRequest" placeholder="Any Special Request">
+            </div>
+          </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="closeForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

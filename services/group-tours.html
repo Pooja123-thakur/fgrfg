@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Tours | EternalMiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="contact-info-bar">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@eternalmiles.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <a href="../index.html" class="logo">
+                        <img src="../image/eternalogo.png" alt="EternalMiles Logo" class="logo-img"><br>
+                        <span class="tagline">Never Stop Exploring</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#destinations">Destinations</a></li>
+                    <li><a href="../index.html#exp">Experiences</a></li>
+                    <li><a href="../index.html#stories">Stories</a></li>
+                    <li><a href="#" class="btn" onclick="openForm()">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="destination-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="container">
+            <h1>Group Tours</h1>
+            <p>Shared Experiences, Unforgettable Memories</p>
+        </div>
+    </section>
+
+    <section class="group-section">
+        <div class="container">
+            <h2>The EternalMiles Group Experience</h2>
+            <p>Where traveling together creates bonds that last a lifetime</p>
+            
+            <div class="group-features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Custom Group Sizes</h3>
+                    <p>Tailored experiences for groups of 10-50+ travelers, with dedicated tour managers for seamless coordination.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3>Private Transportation</h3>
+                    <p>Dedicated coaches with professional drivers and guides for stress-free group movement.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Group Dining</h3>
+                    <p>Reserved tables at local restaurants and special culinary experiences designed for groups.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>Block Room Rates</h3>
+                    <p>Exclusive hotel contracts with group discounts and room blocks near all major attractions.</p>
+                </div>
+            </div>
+            
+            <h2>Signature Group Tours</h2>
+            <p>Curated itineraries perfect for groups</p>
+            
+            <div class="group-packages">
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>European Highlights</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 12 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> 5 Countries</span>
+                        </div>
+                        <p>London, Paris, Rome, Barcelona and Amsterdam with private guided tours and group activities.</p>
+                        <button class="btn book-package-btn" data-destination="European Highlights" onclick="openForm('European Highlights')">Book This Tour</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>Asian Cultural Journey</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 14 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Japan & South Korea</span>
+                        </div>
+                        <p>Tokyo, Kyoto, Seoul and Busan with traditional cultural experiences and group excursions.</p>
+                        <button class="btn book-package-btn" data-destination="Asian Cultural Journey" onclick="openForm('Asian Cultural Journey')">Book This Tour</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                    <div class="package-content">
+                        <h3>National Parks Adventure</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 10 Days</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Western USA</span>
+                        </div>
+                        <p>Yellowstone, Grand Teton, Zion and Grand Canyon with group hikes and expert naturalist guides.</p>
+                        <button class="btn book-package-btn" data-destination="National Parks Adventure" onclick="openForm('National Parks Adventure')">Book This Tour</button>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Group Travel Stories</h2>
+            <p>What our group travelers say</p>
+            
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p>"Our church group of 42 travelers had the most seamless European tour thanks to EternalMiles. Every transfer, hotel check-in, and attraction entry was perfectly coordinated. The local guides were exceptional!"</p>
+                    <p class="testimonial-author">- St. Mark's Travel Group</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"As a university alumni group, we appreciated how EternalMiles tailored activities for our mixed-age group. The private receptions at museums and special access to attractions made our reunion trip extraordinary."</p>
+                    <p class="testimonial-author">- Northwestern Alumni Association</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="../destinations/europe.html">Europe</a></li>
+                        <li><a href="../destinations/asia.html">Asia</a></li>
+                        <li><a href="../destinations/africa.html">Africa</a></li>
+                        <li><a href="../destinations/americas.html">Americas</a></li>
+                        <li><a href="../destinations/oceania.html">Oceania</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="../services/luxury-vacations.html">Luxury Vacations</a></li>
+                        <li><a href="../services/honeymoons.html">Honeymoons</a></li>
+                        <li><a href="../services/family-travel.html">Family Travel</a></li>
+                        <li><a href="../services/group-tours.html">Group Tours</a></li>
+                        <li><a href="../services/corporate-retreats.html">Corporate Retreats</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../company/about-us.html">About Us</a></li>
+                        <li><a href="../company/travel-blog.html">Travel Blog</a></li>
+                        <li><a href="../company/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trip Form Popup -->
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="tripForm">
+        <h2>Complete Your Details</h2>
+        <form id="customForm">
+            <div class="form-row">
+                <div><input type="text" id="destination" placeholder="Destination" required /></div>
+                <div><input type="number" id="travelers" placeholder="Number of Travelers" required min="1" value="2" /></div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group-inline">
+                    <label for="checkIn">Check-in:</label>
+                    <input type="date" id="checkIn" required />
+                </div>
+                <div class="form-group-inline">
+                    <label for="checkOut">Check-out:</label>
+                    <input type="date" id="checkOut" required />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <select id="hotel" required>
+                        <option value="" disabled selected>Select Accommodation Type</option>
+                        <option>Luxury Honeymoon Suite</option>
+                        <option>Private Villa</option>
+                        <option>Overwater Bungalow</option>
+                        <option>Boutique Hotel</option>
+                    </select>
+                </div>
+                <div><input type="text" id="departureCity" placeholder="Departure City" /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="email" id="email" placeholder="Email" required /></div>
+                <div><input type="tel" id="phone" placeholder="Phone Number" required /></div>
+            </div>
+
+           <div class="form-row">
+            <div>
+              <input type="text" id="specialRequest" placeholder="Any Special Request">
+            </div>
+          </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="closeForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

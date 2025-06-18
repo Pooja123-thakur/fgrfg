@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiti Valley Expedition | EternalMiles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="contact-info-bar">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@eternalmiles.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+       <a href="../index.html" class="logo">
+                        <img src="../image/eternalogo.png" alt="EternalMiles Logo" class="logo-img"><br>
+                        <span class="tagline">Never Stop Exploring</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#destinations">Destinations</a></li>
+                    <li><a href="../index.html#exp">Experiences</a></li>
+                    <li><a href="../index.html#stories">Stories</a></li>
+                    <li><a href="#" class="btn" onclick="openForm()">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="destination-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1613553472352-99b4566a82ff');">
+        <div class="container">
+            <h1>Spiti Valley Expedition</h1>
+            <p>Journey to the Middle Land</p>
+        </div>
+    </section>
+
+<section class="destination-details">
+    <div class="container">
+        <div class="itinerary-section">
+            <h2>Spiti Valley Explorer</h2>
+            <div class="itinerary-table-container">
+                <table class="itinerary-table">
+                    <thead>
+                        <tr>
+                            <th width="15%">Day</th>
+                            <th width="25%">Location</th>
+                            <th width="60%">Experiences</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Day 1: Arrival in Manali -->
+                        <tr>
+                            <td><span class="day-number">Day 1</span></td>
+                            <td>Manali</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-car"></i> Arrival and check-in</div>
+                                <div class="activity"><i class="fas fa-water"></i> Visit Vashisht Hot Springs</div>
+                                <div class="activity"><i class="fas fa-tree"></i> Explore Old Manali cafes</div>
+                                <div class="accommodation">Overnight: Snow Valley Resorts, Manali</div>
+                            </td>
+                        </tr>
+                        <!-- Day 2: Manali to Kaza -->
+                        <tr>
+                            <td><span class="day-number">Day 2</span></td>
+                            <td>Kaza</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-road"></i> Scenic drive via Rohtang & Kunzum Pass</div>
+                                <div class="activity"><i class="fas fa-mountain"></i> Stopover at Chandratal Lake (optional)</div>
+                                <div class="accommodation">Overnight: Hotel Deyzor, Kaza</div>
+                            </td>
+                        </tr>
+                        <!-- Day 3: Key Monastery & Kibber -->
+                        <tr>
+                            <td><span class="day-number">Day 3</span></td>
+                            <td>Kaza</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-church"></i> Morning prayers at Key Monastery</div>
+                                <div class="activity"><i class="fas fa-binoculars"></i> Wildlife spotting in Kibber village</div>
+                                <div class="accommodation">Overnight: Hotel Deyzor, Kaza</div>
+                            </td>
+                        </tr>
+                        <!-- Day 4: Hikkim, Komic & Langza -->
+                        <tr>
+                            <td><span class="day-number">Day 4</span></td>
+                            <td>Spiti Villages</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-envelope"></i> Send postcard from world’s highest post office (Hikkim)</div>
+                                <div class="activity"><i class="fas fa-globe"></i> Explore Komic – the highest motorable village</div>
+                                <div class="activity"><i class="fas fa-fossil"></i> Fossil hunting at Langza village</div>
+                                <div class="accommodation">Overnight: Homestay in Langza</div>
+                            </td>
+                        </tr>
+                        <!-- Day 5: Dhankar & Tabo -->
+                        <tr>
+                            <td><span class="day-number">Day 5</span></td>
+                            <td>Dhankar & Tabo</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-church"></i> Visit Dhankar Monastery & viewpoint</div>
+                                <div class="activity"><i class="fas fa-book"></i> Explore Tabo Monastery – over 1000 years old</div>
+                                <div class="accommodation">Overnight: Monastery Guesthouse, Tabo</div>
+                            </td>
+                        </tr>
+                        <!-- Day 6: Return to Manali -->
+                        <tr>
+                            <td><span class="day-number">Day 6</span></td>
+                            <td>Manali</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-car"></i> Return drive to Manali via Kunzum Pass</div>
+                                <div class="activity"><i class="fas fa-utensils"></i> Dinner and rest in Manali</div>
+                                <div class="accommodation">Overnight: Snow Valley Resorts, Manali</div>
+                            </td>
+                        </tr>
+                        <!-- Day 7: Departure -->
+                        <tr>
+                            <td><span class="day-number">Day 7</span></td>
+                            <td>Manali</td>
+                            <td>
+                                <div class="activity"><i class="fas fa-shopping-bag"></i> Local shopping in Mall Road</div>
+                                <div class="activity"><i class="fas fa-plane-departure"></i> Departure or transfer to onward destination</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="itinerary-cta">
+                <button class="btn btn-large" onclick="openForm()">Customize This Spiti Journey</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Destinations</h3>
+                    <ul>
+                        <li><a href="../destinations/europe.html">Europe</a></li>
+                        <li><a href="../destinations/asia.html">Asia</a></li>
+                        <li><a href="../destinations/africa.html">Africa</a></li>
+                        <li><a href="../destinations/americas.html">Americas</a></li>
+                        <li><a href="../destinations/oceania.html">Oceania</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="../services/luxury-vacations.html">Luxury Vacations</a></li>
+                        <li><a href="../services/honeymoons.html">Honeymoons</a></li>
+                        <li><a href="../services/family-travel.html">Family Travel</a></li>
+                        <li><a href="../services/group-tours.html">Group Tours</a></li>
+                        <li><a href="../services/corporate-retreats.html">Corporate Retreats</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../company/about-us.html">About Us</a></li>
+                        <li><a href="../company/travel-blog.html">Travel Blog</a></li>
+                        <li><a href="../company/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trip Form Popup -->
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="tripForm">
+        <h2>Complete Your Custom Trip Details</h2>
+        <form id="customForm">
+            <div class="form-row">
+                <div><input type="text" id="destination" placeholder="Destination" required value="Singapore" readonly /></div>
+                <div><input type="number" id="travelers" placeholder="Number of Travelers" required min="1" /></div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group-inline">
+                    <label for="checkIn">Check-in:</label>
+                    <input type="date" id="checkIn" required />
+                </div>
+                <div class="form-group-inline">
+                    <label for="checkOut">Check-out:</label>
+                    <input type="date" id="checkOut" required />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <select id="hotel" required>
+                        <option value="" disabled selected>Select Accommodation Type</option>
+                        <option>Luxury Hotel</option>
+                        <option>Boutique Hotel</option>
+                        <option>Family Resort</option>
+                        <option>Business Hotel</option>
+                    </select>
+                </div>
+                <div><input type="text" id="departureCity" placeholder="Departure City" /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="email" id="email" placeholder="Email" required /></div>
+                <div><input type="tel" id="phone" placeholder="Phone Number" required /></div>
+            </div>
+
+            <div class="form-row">
+                <div><input type="number" id="kids" min="0" placeholder="Number of Kids" /></div>
+                <div>
+                    <select id="kidsAgeRange">
+                        <option value="" disabled selected>Select Kids Age Range</option>
+                        <option>0-2</option>
+                        <option>2-8</option>
+                        <option>8-12</option>
+                        <option>12-18</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div>
+                    <select id="specialInterests">
+                        <option value="" disabled selected>Special Interests (Optional)</option>
+                        <option>Family Vacation</option>
+                        <option>Food & Culture</option>
+                        <option>Theme Parks</option>
+                        <option>Luxury Shopping</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn btn-secondary" onclick="closeForm()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

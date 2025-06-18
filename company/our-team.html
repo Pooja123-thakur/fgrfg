@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team | EternalMiles</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="logo-container">
+            <a href="../index.html" class="logo">
+                <img src="../images/eternalogo.png" alt="EternalMiles Logo" class="logo-img">
+                <span class="tagline">Never Stop Exploring</span>
+            </a>
+        </div>
+        <nav>
+            <a href="../index.html#featured">Destinations</a>
+            <a href="../index.html#luxury">Experiences</a>
+            <a href="../index.html#testimonials">Stories</a>
+            <a id="openFormLink" onclick="openForm()">Plan Your Custom Trip</a>
+        </nav>
+    </header>
+
+    <div class="page-header">
+
+        <p>Meet the passionate individuals behind EternalMiles.</p>
+    </div>
+
+    <main class="page-content container">
+        <section class="team-section">
+            <h2 class="section-title">Meet Our Experts</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="../images/team1.jpg" alt="Founder">
+                    <h3>John Doe</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="../images/team2.jpg" alt="Travel Expert">
+                    <h3>Jane Smith</h3>
+                    <p>Lead Travel Expert</p>
+                </div>
+                <div class="team-member">
+                    <img src="../images/team3.jpg" alt="Marketing Head">
+                    <h3>Michael Johnson</h3>
+                    <p>Marketing Head</p>
+                </div>
+                <div class="team-member">
+                    <img src="../images/team4.jpg" alt="Customer Relations">
+                    <h3>Emily Davis</h3>
+                    <p>Customer Relations</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+917018137240">+91 7018137240</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@eternalmiles.com">info@eternalmiles.com</a></li>
+                    <!-- <li><i class="fas fa-map-marker-alt"></i> <span>123 Travel Avenue, Suite 500, New York, NY 10001</span></li> -->
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Destinations</h3>
+                <ul>
+                    <li><a href="../destinations/europe.html">Europe</a></li>
+                    <li><a href="../destinations/asia.html">Asia</a></li>
+                    <li><a href="../destinations/africa.html">Africa</a></li>
+                    <li><a href="../destinations/americas.html">Americas</a></li>
+                    <li><a href="../destinations/oceania.html">Oceania</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="../services/luxury-vacations.html">Luxury Vacations</a></li>
+                    <li><a href="../services/honeymoons.html">Honeymoons</a></li>
+                    <li><a href="../services/family-travel.html">Family Travel</a></li>
+                    <li><a href="../services/group-tours.html">Group Tours</a></li>
+                    <li><a href="../services/corporate-retreats.html">Corporate Retreats</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./our-team.html">Our Team</a></li>
+                    <li><a href="./testimonials.html">Testimonials</a></li>
+                    <li><a href="./travel-blog.html">Travel Blog</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 EternalMiles. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+    
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="tripForm">
+      <h2>Complete Your Custom Trip Details</h2>
+      <form id="customForm">
+          <div class="form-row">
+            <div>
+              <input type="text" id="destination" placeholder="Destination" required>
+            </div>
+            <div>
+              <input type="number" id="travelers" placeholder="Number of Travelers" required min="1">
+            </div>
+          </div>
+        
+          <div class="form-row">
+              <div class="form-group-inline">
+                <label for="checkIn">Check-in:</label>
+                <input type="date" id="checkIn" required>
+              </div>
+              <div class="form-group-inline">
+                <label for="checkOut">Check-out:</label>
+                <input type="date" id="checkOut" required>
+              </div>
+            </div>
+        
+          <div class="form-row">
+            <div>
+              <select id="hotel" required>
+                <option value="" disabled selected>Select Hotel Category</option>
+                <option>3 Star</option>
+                <option>4 Star</option>
+                <option>5 Star</option>
+              </select>
+            </div>
+        
+            <div>
+              <input type="text" id="departureCity" placeholder="Departure City">
+            </div>
+          </div>
+        
+          <div class="form-row">
+            <div>
+              <input type="email" id="email" placeholder="Email">
+            </div>
+            <div>
+              <input type="tel" id="phone" placeholder="Phone Number">
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div>
+              <input type="number" id="kids" min="0" placeholder="Number of Kids">
+            </div>
+            <div>
+              <select id="kidsAgeRange">
+                <option value="" disabled selected>Select Kids Age Range</option>
+                <option>0-2</option>
+                <option>2-8</option>
+                <option>8-12</option>
+              </select>
+            </div>
+          </div>
+        
+          <div class="form-row">
+            <div>
+              <input type="text" id="specialRequest" placeholder="Any Special Request">
+            </div>
+          </div>
+        
+          <div class="form-actions">
+              
+            <button type="submit">Submit</button>
+            <button type="button" onclick="closeForm()">Cancel</button>
+          </div>
+        </form>
+        
+    </div>
+  
+</footer>
+<script src="../script/main.js"></script>
+
+</body>
+</html>
